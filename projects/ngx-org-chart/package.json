@@ -1,32 +1,11 @@
 {
   "name": "ngx-org-chart",
-  "version": "1.1.0",
-  "description": "Hierarchical Organization Chart",
-  "keywords": [
-    "org-chart",
-    "organization",
-    "hierarchical",
-    "organization chart",
-    "hierarchical chart",
-    "angular",
-    "ng",
-    "angular 8"
-  ],
-  "author": "Mümin Celal Pinar",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mumincelal/ngx-org-ui.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mumincelal/ngx-org-ui/issues"
-  },
-  "homepage": "https://github.com/mumincelal/ngx-org-ui",
+  "version": "2.0.0",
   "peerDependencies": {
-    "@angular/common": "^8.2.0",
-    "@angular/core": "^8.2.0"
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
   }
 }
