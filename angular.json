@@ -47,7 +47,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngx-org-ui",
+            "outputPath": "build/ngx-org-ui",
             "index": "projects/ngx-org-ui/src/index.html",
             "main": "projects/ngx-org-ui/src/main.ts",
             "polyfills": "projects/ngx-org-ui/src/polyfills.ts",

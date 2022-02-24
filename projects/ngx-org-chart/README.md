@@ -5,15 +5,15 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 ## Code scaffolding
 
 Run `ng generate component component-name --project ngx-org-chart` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-org-chart`.
-> Note: Don't forget to add `--project ngx-org-chart` or else it will be added to the default project in your `angular.json` file. 
+> Note: Don't forget to add `--project ngx-org-chart` or else it will be added to the default project in your `angular.json` file.
 
 ## Build
 
-Run `ng build ngx-org-chart` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build ngx-org-chart` to build the project. The build artifacts will be stored in the `build/` directory.
 
 ## Publishing
 
-After building your library with `ng build ngx-org-chart`, go to the dist folder `cd dist/ngx-org-chart` and run `npm publish`.
+After building your library with `ng build ngx-org-chart`, go to the build folder `cd build/ngx-org-chart` and run `npm publish`.
 
 ## Running unit tests
 

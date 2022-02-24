@@ -5,11 +5,11 @@ import { NgxOrgChartComponent } from './ngx-org-chart.component';
 
 
 @NgModule({
-  declarations: [
-    NgxOrgChartComponent
-  ],
   imports: [
     NodeModule
+  ],
+  declarations: [
+    NgxOrgChartComponent
   ],
   exports: [
     NgxOrgChartComponent
