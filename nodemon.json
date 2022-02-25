@@ -3,5 +3,5 @@
     "projects/ngx-org-chart"
   ],
   "ext": "ts,html",
-  "exec": "ng build ngx-org-chart && npx tailwindcss -i ./projects/ngx-org-chart/src/theme.css -o ./build/ngx-org-chart/theme.css && npx shx rm -rf node_modules/ngx-org-chart && npx shx cp -r ./build/ngx-org-chart ./node_modules/"
+  "exec": "ng build ngx-org-chart && npx tailwindcss -c ./projects/ngx-org-chart/tailwind.config.js -i ./projects/ngx-org-chart/src/theme.css -o ./build/ngx-org-chart/theme.css && npx shx rm -rf node_modules/ngx-org-chart && npx shx cp -r ./build/ngx-org-chart ./node_modules/"
 }

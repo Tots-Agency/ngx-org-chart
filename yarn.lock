@@ -25,7 +25,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/build-angular@npm:~13.2.5":
+"@angular-devkit/build-angular@npm:^13.2.5":
   version: 13.2.5
   resolution: "@angular-devkit/build-angular@npm:13.2.5"
   dependencies:
@@ -5973,7 +5973,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.1.30, nanoid@npm:^3.2.0":
+"nanoid@npm:^3.1.30, nanoid@npm:^3.2.0, nanoid@npm:^3.3.1":
   version: 3.3.1
   resolution: "nanoid@npm:3.3.1"
   bin:
@@ -6055,7 +6055,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ngx-org-ui@workspace:."
   dependencies:
-    "@angular-devkit/build-angular": ~13.2.5
+    "@angular-devkit/build-angular": ^13.2.5
     "@angular/animations": ^13.2.4
     "@angular/cli": ^13.2.5
     "@angular/common": ^13.2.4
@@ -6070,12 +6070,12 @@ __metadata:
     autoprefixer: ^10.4.2
     ng-packagr: ^13.2.1
     nodemon: ^2.0.15
-    postcss: ^8.4.6
+    postcss: ^8.4.7
     rxjs: ^7.5.4
     shx: ^0.3.4
     tailwindcss: ^3.0.23
     tslib: ^2.3.1
-    typescript: 4.5.5
+    typescript: ^4.5.5
     zone.js: ^0.11.4
   languageName: unknown
   linkType: soft
@@ -7171,6 +7171,17 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: 60e7808f39c4a9d0fa067bfd5eb906168c4eb6d3ff0093f7d314d1979b001a16363deedccd368a7df869c63ad4ae350d27da439c94ff3fb0f8fc93d49fe38a90
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.7":
+  version: 8.4.7
+  resolution: "postcss@npm:8.4.7"
+  dependencies:
+    nanoid: ^3.3.1
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: a515ed36622edbee1d3ba153298d3b62ae9826dfa6de19204c2a6f975c8d3ad36808423b5119a9d82b78efd486de3ce35a1faf882a36ac8aa09492be4fbb7fe1
   languageName: node
   linkType: hard
 
@@ -8518,7 +8529,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.5.5":
+"typescript@npm:^4.5.5":
   version: 4.5.5
   resolution: "typescript@npm:4.5.5"
   bin:
@@ -8528,7 +8539,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.5.5#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.5.5#~builtin<compat/typescript>":
   version: 4.5.5
   resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=ddd1e8"
   bin:

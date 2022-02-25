@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    './src/**/*.{html,ts,css}'
+    './projects/ngx-org-chart/src/**/*.{html,ts}'
   ],
   theme: {
     extend: {}
