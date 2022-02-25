@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgxOrgChartModule } from 'ngx-org-chart';
-
+import { ChartModule } from 'ngx-org-chart';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -12,7 +11,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxOrgChartModule
+    ChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]

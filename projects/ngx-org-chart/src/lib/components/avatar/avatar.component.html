@@ -1,9 +1,0 @@
-<ng-container *ngIf="imageUrl; then profileImage else nameAbbrevation"></ng-container>
-
-<ng-template #profileImage>
-  <img class="border-2 border-black rounded-full h-16 w-16 bg-gray-100 border-white" src="{{ imageUrl }}" alt="{{ fullname }}" />
-</ng-template>
-
-<ng-template #nameAbbrevation>
-  <div class="border border-black rounded-full h-16 w-16 flex items-center justify-center text-center">{{ fullname | abbreviation }}</div>
-</ng-template>

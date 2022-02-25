@@ -22,14 +22,6 @@
             }
           },
           "defaultConfiguration": "production"
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/ngx-org-chart/src/test.ts",
-            "tsConfig": "projects/ngx-org-chart/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-org-chart/karma.conf.js"
-          }
         }
       }
     },
@@ -110,23 +102,6 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "browserTarget": "ngx-org-ui:build"
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/ngx-org-ui/src/test.ts",
-            "polyfills": "projects/ngx-org-ui/src/polyfills.ts",
-            "tsConfig": "projects/ngx-org-ui/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-org-ui/karma.conf.js",
-            "assets": [
-              "projects/ngx-org-ui/src/favicon.ico",
-              "projects/ngx-org-ui/src/assets"
-            ],
-            "styles": [
-              "projects/ngx-org-ui/src/styles.css"
-            ],
-            "scripts": []
           }
         }
       }
