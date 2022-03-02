@@ -1,0 +1,9 @@
+<div *ngIf="imageUrl; then renderImageAvatar else renderTextAvatar"></div>
+
+<ng-template #renderImageAvatar>
+  <img class="h-12 w-12 rounded-full border border-black" [src]="imageUrl" [alt]="label" />
+</ng-template>
+
+<ng-template #renderTextAvatar>
+  <div class="h-12 w-12 rounded-full border border-black flex items-center justify-center">{{label | abbreviation}}</div>
+</ng-template>

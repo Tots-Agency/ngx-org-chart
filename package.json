@@ -5,7 +5,7 @@
     "ng": "ng",
     "dev": "ng serve",
     "build:lib": "nodemon",
-    "tailwind:bundle": "npx tailwindcss -c ./projects/ngx-org-chart/tailwind.config.js -i ./projects/ngx-org-chart/src/theme.css -o ./build/ngx-org-chart/theme.css"
+    "tailwind:bundle": "npx tailwindcss -i ./projects/ngx-org-chart/src/theme.css -o ./build/ngx-org-chart/theme.css"
   },
   "dependencies": {
     "@angular/animations": "^13.2.4",
