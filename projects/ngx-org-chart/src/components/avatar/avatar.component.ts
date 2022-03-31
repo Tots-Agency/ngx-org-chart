@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class AvatarComponent {
   @Input()
-  imageUrl = '';
+  imageUrl?: string;
 
   @Input()
   label = 'Avatar';

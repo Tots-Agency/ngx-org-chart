@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { IChartNode } from '../../../utils/interfaces';
 
 @Component({
   selector: 'ngx-org-chart-node',
@@ -7,14 +8,5 @@ import { Component, Input } from '@angular/core';
 })
 export class NodeComponent {
   @Input()
-  imageUrl = '';
-
-  @Input()
-  label = '';
-
-  @Input()
-  fullname = '';
-
-  @Input()
-  title = '';
+  chartNode!: IChartNode;
 }

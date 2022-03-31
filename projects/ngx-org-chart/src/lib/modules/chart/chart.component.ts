@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { IChart } from '../../../utils/interfaces';
 
 @Component({
   selector: 'ngx-org-chart',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: []
 })
 export class ChartComponent {
-  constructor() { }
+  @Input()
+  data!: IChart;
 }

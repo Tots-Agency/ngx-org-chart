@@ -1,5 +1,23 @@
-<ngx-avatar imageUrl="https://i.pravatar.cc/300" label="Avatar avatar"></ngx-avatar>
-<ngx-avatar label="Avatar avatar"></ngx-avatar>
-<ngx-info fullname="Angosto Delivare" title="Executive Chef"></ngx-info>
+<!-- Vertical Chart -->
+<div *ngIf="data" class="flex-col">
+  <div class="flex justify-center">
+    <ngx-org-chart-node [chartNode]="data.parentNode"></ngx-org-chart-node>
+  </div>
+  <div class="flex justify-center">
+    <ng-container *ngFor="let childNode of data.childNodes">
+      <ngx-org-chart [data]="childNode"></ngx-org-chart>
+    </ng-container>
+  </div>
+</div>
 
-<ngx-org-chart-node fullname="Test Deliver" imageUrl="https://i.pravatar.cc/300" label="Auto Avatar" title="Computer Engineer"></ngx-org-chart-node>
+<!-- Horizontal Chart -->
+<!-- <div *ngIf="data" class="flex items-center">
+  <div class="flex-col">
+    <ngx-org-chart-node [chartNode]="data.parentNode"></ngx-org-chart-node>
+  </div>
+  <div class="flex-col">
+    <ng-container *ngFor="let childNode of data.childNodes">
+      <ngx-org-chart [data]="childNode"></ngx-org-chart>
+    </ng-container>
+  </div>
+</div> -->
