@@ -1,23 +1,10 @@
-<!-- Vertical Chart -->
-<div *ngIf="data" class="flex-col">
-  <div class="flex justify-center">
+<div *ngIf="data" [ngClass]="layout === 'vertical' ? 'flex-col' : 'flex items-center'">
+  <div [ngClass]="layout === 'vertical' ? 'flex justify-center' : 'flex-col'">
     <ngx-org-chart-node [chartNode]="data.parentNode"></ngx-org-chart-node>
   </div>
-  <div class="flex justify-center">
+  <div [ngClass]="layout === 'vertical' ? 'flex justify-center' : 'flex-col'">
     <ng-container *ngFor="let childNode of data.childNodes">
-      <ngx-org-chart [data]="childNode"></ngx-org-chart>
+      <ngx-org-chart [layout]="layout" [data]="childNode"></ngx-org-chart>
     </ng-container>
   </div>
 </div>
-
-<!-- Horizontal Chart -->
-<!-- <div *ngIf="data" class="flex items-center">
-  <div class="flex-col">
-    <ngx-org-chart-node [chartNode]="data.parentNode"></ngx-org-chart-node>
-  </div>
-  <div class="flex-col">
-    <ng-container *ngFor="let childNode of data.childNodes">
-      <ngx-org-chart [data]="childNode"></ngx-org-chart>
-    </ng-container>
-  </div>
-</div> -->

@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Layout } from '../../../utils/types';
 import { IChart } from '../../../utils/interfaces';
 
 @Component({
@@ -7,6 +8,9 @@ import { IChart } from '../../../utils/interfaces';
   styleUrls: []
 })
 export class ChartComponent {
+  @Input()
+  layout!: Layout;
+
   @Input()
   data!: IChart;
 }
