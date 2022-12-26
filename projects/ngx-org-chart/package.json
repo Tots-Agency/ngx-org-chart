@@ -1,6 +1,6 @@
 {
   "name": "@tots/ngx-org-chart",
-  "version": "11.0.0",
+  "version": "12.0.0",
   "description": "Hierarchical Organization Chart",
   "keywords": [
     "org-chart",
@@ -29,7 +29,7 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^11.0.0",
-    "@angular/core": "^11.0.0"
+    "@angular/common": "^12.0.0",
+    "@angular/core": "^12.0.0"
   }
 }
