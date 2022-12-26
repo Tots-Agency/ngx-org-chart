@@ -1,6 +1,6 @@
 {
-  "name": "ngx-org-chart",
-  "version": "1.1.0",
+  "name": "@tots/ngx-org-chart",
+  "version": "9.0.0",
   "description": "Hierarchical Organization Chart",
   "keywords": [
     "org-chart",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/mumincelal/ngx-org-ui",
   "peerDependencies": {
-    "@angular/common": "^8.2.0",
-    "@angular/core": "^8.2.0"
+    "@angular/common": "^9.0.0",
+    "@angular/core": "^9.0.0"
   }
 }

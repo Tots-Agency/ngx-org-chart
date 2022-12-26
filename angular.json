@@ -159,6 +159,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-org-ui"
+    }
+  },
+  "defaultProject": "ngx-org-ui",
+  "cli": {
+    "analytics": "e6b4bf43-e3da-4bbd-98d9-ad548d78c03c"
+  }
 }
